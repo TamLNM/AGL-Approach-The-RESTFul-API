@@ -1,0 +1,296 @@
+* { padding: 0; margin: 0 }
+
+/* Page icon */
+.page-icon-menu{
+    padding-top: 10px!important;
+    padding-left: 15px!important;
+    padding-bottom: 0!important;
+}
+
+.page-icon{
+    max-width: 30px;
+}
+
+/* Home page */
+.HomePage{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;;
+}
+
+/* Header */
+.navigation {
+    display: inline-block;
+    min-width: 90%;
+    width: auto;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navigation li {
+    float: left;
+}
+  
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navigation li a:hover:not(.active){
+    background-color: #111;
+}
+  
+.navigation .active{
+    background-color: #fff;
+    color: #111;
+    font-weight: 800;
+}
+
+/* Login group */
+.login-group{
+    display: inline-block;
+    position: absolute;
+    width: 15%;
+    height: 52px;
+    right: 0;
+    background-color: #333;
+    color: white;
+}
+
+.logined-group{
+    display: inline-block;
+    padding: 15px;
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    background-color: #333;
+    color: white;
+}
+
+.login-group .button-login, .login-group .button-register{
+    position: flex;
+    display: inline-block;
+    margin-top: 0;
+    height: 100%;
+    padding: 10px;
+    min-width: 75px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    background-color: #333;
+}
+
+.login-group .button-login:hover, .login-group .button-register:hover{
+    color:  #333;
+    background-color:white;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #333; 
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    justify-content: space-between;
+}
+
+.fContent{
+    margin-left: 5px;
+    display: flex;
+    font-style: italic;
+}
+
+.fSignature{
+    display: flex;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+/* Login form */
+.login-form {
+    font-size: 13px;
+    width: 350px;
+    border: solid 1px rgba(1, 1, 1, 0.5);
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow:  15px 15px 10px 5px rgba(1, 1, 1, 0.05);
+}
+
+.inp-user-name, .inp-password {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-left: 10px;
+    border: solid 1px #333;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.login-form .btn-login{
+    width: 100px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
+.login-title{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/* Blog list */
+.blog-list {
+    padding: 20px;
+}
+
+/* Datatable Filter */
+#example_filter.dataTables_filter {
+    float: left;
+    text-align: left;
+}
+
+/* Add new blog */
+/* #example_wrapper{
+    z-index: -1;
+} */
+
+.btn-add-new-blog {
+    float: right;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #333;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    /* margin-bottom: -27px; */
+    margin-right: 10px;
+    cursor: pointer;
+    /* z-index: 1; */
+}
+
+/* Page header content */
+.page-content {
+    padding: 10px;
+}
+
+.title-page {
+    font-weight: 800;
+    font-size: 20px;
+    border-bottom: solid 1px rgba(1, 1, 1, 0.5);
+    width: auto;
+    margin-bottom: 10px;
+}
+
+/* Page content */
+.main-content {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 500px;
+    display: block;
+    border: solid 1px #333;
+    border-radius: 5px;
+}
+
+.row-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.label-content {
+    min-width: 150px;
+}
+
+.select-content, 
+.input-content  {
+    padding: 5px;
+    border: solid 1px #333;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.error-input-area {
+    height: 20px;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+.success-input-area {
+    height: 35px;
+    display: block;
+    font-size: 18px;
+    color: green;
+    text-align: center;
+    font-weight: 800;
+}
+
+.textarea-input{
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.button-content-container {
+    text-align: right;   
+    margin-bottom: 5px;
+}
+
+/**/
+.button-content {
+    padding: 5px;
+    border: solid 1px #333;
+    border-radius: 5px;
+    width: 150px;
+    background-color: #333;
+    color: white;
+}
+
+.button-edit-group{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-save {
+    background-color: #168253!important;
+    border-color: #168253!important;
+    width: 100px!important;
+}
+
+.button-new{
+    background-color: rgba(1,1,1,0.6)!important;
+    border-color:  rgba(1,1,1,0.6)!important;
+    width: 100px!important;
+}
+
+.button-delete {
+    background-color: #ff0202!important;
+    border-color: #ff0202!important;
+    width: 100px!important;
+}
